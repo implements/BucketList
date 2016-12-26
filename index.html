@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Bucket List</title>
+</head>
+    <body ng-app="BucketListApplication" ng-controller="BucketListController">
+        <div id="title">Bucket List</div>
+        <div id="location">
+            <div class="wish" ng-repeat="location in locations">
+                <a ng-href={{location.url}} target="_blank">
+                    <div class="title">{{location.title}}</div>
+                    <div class="place">{{location.place}}</div>
+                    <div class="country">{{location.country}}</div>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

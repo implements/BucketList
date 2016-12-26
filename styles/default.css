@@ -1,0 +1,44 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: smaller;
+	text-align: center;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #B8B8B8;
+}
+
+#title {
+	font-size: 4em;
+	margin-bottom: 0.25em;
+}
+
+.title {
+    font-size: 1em;
+}
+
+.place {
+    font-size: 0.75em;
+}
+
+.country {
+	font-size: 1.25em;
+    font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
