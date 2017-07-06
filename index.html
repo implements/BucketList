@@ -11,7 +11,7 @@
     <body ng-app="BucketListApplication" ng-controller="BucketListController">
         <div id="title">Bucket List</div>
         <div id="location">
-            <div class="wish" ng-repeat="location in locations">
+            <div class="wish" ng-class="location.done ? 'strike_through' : ''" ng-repeat="location in locations">
                 <a ng-href={{location.url}} target="_blank">
                     <div class="title">{{location.title}}</div>
                     <div class="place">{{location.place}}</div>

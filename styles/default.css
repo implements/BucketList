@@ -1,21 +1,21 @@
 body {
-	font-family: "Open Sans", sans-serif;
-	font-size: smaller;
-	text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: smaller;
+    text-align: center;
 }
 
 a {
-	color: #000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 
 a:hover {
-	color: #B8B8B8;
+    color: #B8B8B8;
 }
 
 #title {
-	font-size: 4em;
-	margin-bottom: 0.25em;
+    font-size: 4em;
+    margin-bottom: 0.25em;
 }
 
 .title {
@@ -27,18 +27,22 @@ a:hover {
 }
 
 .country {
-	font-size: 1.25em;
+    font-size: 1.25em;
     font-weight: bold;
-	margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
-.box{
+.box {
     display: none;
     width: 100%;
 }
 
-a:hover + .box,.box:hover{
+a:hover + .box, .box:hover {
     display: block;
     position: relative;
     z-index: 100;
+}
+
+.strike_through {
+    text-decoration: line-through;
 }
