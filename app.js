@@ -64,13 +64,6 @@ app.controller('BucketListController', function($scope) {
             done: false
         },
         {
-            title: 'Antelope Canyon',
-            place: 'Arizona',
-            country: 'United States',
-            url: 'https://interfacelift.com/wallpaper/details/448/antelope_canyon.html',
-            done: false
-        },
-        {
             title: 'Vesper Peak',
             place: 'Washington',
             country: 'United States',
@@ -82,6 +75,13 @@ app.controller('BucketListController', function($scope) {
             place: 'Hong Kong',
             country: 'China',
             url: 'https://interfacelift.com/wallpaper/details/4047/hong_kong_city_after_raining.html',
+            done: true
+        },  
+        {
+            title: 'Antelope Canyon',
+            place: 'Arizona',
+            country: 'United States',
+            url: 'https://interfacelift.com/wallpaper/details/448/antelope_canyon.html',
             done: true
         }
 	]
