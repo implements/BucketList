@@ -22,6 +22,12 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
+            title: 'Dive the Great Barrier Reef.',
+            country: 'Australia',
+            url: 'https://en.wikipedia.org/wiki/Great_Barrier_Reef',
+            done: false
+        },
+        {
             title: 'The Gibbon Experience.',
             country: 'Laos',
             url: 'https://www.gibbonexperience.org/',
