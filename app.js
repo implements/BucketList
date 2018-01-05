@@ -28,6 +28,12 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
+            title: 'Experience Oktoberfest.',
+            country: 'Germany',
+            url: 'https://en.wikipedia.org/wiki/Oktoberfest',
+            done: false
+        },
+        {
             title: 'Dive the Great Barrier Reef.',
             country: 'Australia',
             url: 'https://en.wikipedia.org/wiki/Great_Barrier_Reef',
