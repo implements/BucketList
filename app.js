@@ -20,6 +20,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'China',
             url: 'https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park',
             done: false
+        },    
+        {
+            title: 'Hike the Fimmvörðuháls Trail.',
+            country: 'Iceland',
+            url: 'https://en.wikipedia.org/wiki/Fimmv%C3%B6r%C3%B0uh%C3%A1ls',
+            done: false
         },
         {
             title: 'Dive the Great Barrier Reef.',
