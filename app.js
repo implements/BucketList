@@ -32,6 +32,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Australia',
             url: 'https://en.wikipedia.org/wiki/Great_Barrier_Reef',
             done: false
+        },  
+        {
+            title: 'Experience La Tomatina.',
+            country: 'Spain',
+            url: 'https://en.wikipedia.org/wiki/La_Tomatina',
+            done: false
         },
         {
             title: 'The Gibbon Experience.',
