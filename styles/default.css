@@ -15,7 +15,10 @@ a:hover {
 }
 
 #title {
+    font-family: Lato, sans-serif;
+    font-weight: 100;
     font-size: 5em;
+    letter-spacing: 5px;
     margin-bottom: 0.25em;
 }
 
