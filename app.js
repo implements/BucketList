@@ -62,6 +62,13 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Nepal / Tibet',
             url: 'https://en.wikipedia.org/wiki/Everest_Base_Camp',
             done: false
-        },
+        },   
+        {
+            title: 'Mario Kart through Tokyo.',
+            country: 'Japan',
+            url: 'https://maricar.com/',
+            done: false
+        }
+	    
 	]
 });
