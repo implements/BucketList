@@ -7,19 +7,19 @@ app.controller('TravelPlansController', function($scope) {
             title: 'Hike the Inca Trail to Machu Picchu.',
             country: 'Peru',
             url: 'https://en.wikipedia.org/wiki/Inca_Trail_to_Machu_Picchu',
-            done: false
+            done: true
         },
         {
             title: 'Walk the Great Wall.',
             country: 'China',
             url: 'https://en.wikipedia.org/wiki/Great_Wall_of_China',
-            done: false
+            done: true
         },
         {
             title: 'Visit the Floating Mountains in Zhāngjiājiè.',
             country: 'China',
             url: 'https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park',
-            done: false
+            done: true
         },    
         {
             title: 'Hike the Fimmvörðuháls Trail.',
@@ -37,6 +37,12 @@ app.controller('TravelPlansController', function($scope) {
             title: 'Dive the Great Barrier Reef.',
             country: 'Australia',
             url: 'https://en.wikipedia.org/wiki/Great_Barrier_Reef',
+            done: false
+        },  
+	{
+            title: 'Pet a Quokka.',
+            country: 'Australia',
+            url: 'https://en.wikipedia.org/wiki/Quokka',
             done: false
         },  
         {
