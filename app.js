@@ -11,13 +11,6 @@ app.controller('BucketListController', function($scope) {
             done: false
         },
         {
-            title: 'The Great Wall',
-            place: 'Mutianyu',
-            country: 'China',
-            url: 'https://interfacelift.com/wallpaper/details/375/a_pretty_good_wall.html',
-            done: false
-        },
-        {
             title: 'Baishi Mountain',
             place: 'Taiyuan',
             country: 'China',
@@ -69,6 +62,13 @@ app.controller('BucketListController', function($scope) {
             country: 'United States',
             url: 'https://interfacelift.com/wallpaper/details/3965/sunset_in_the_cascades.html',
             done: false
+        },
+        {
+            title: 'The Great Wall',
+            place: 'Mutianyu',
+            country: 'China',
+            url: 'https://interfacelift.com/wallpaper/details/375/a_pretty_good_wall.html',
+            done: true
         },
         {
             title: 'Kowloon Peak',
