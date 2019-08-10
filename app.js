@@ -74,7 +74,11 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Japan',
             url: 'https://maricar.com/',
             done: false
-        }
-	    
-	]
+        },
+        {
+            title: 'Visit Prada Marfa.',
+            country: 'USA',
+            url: 'https://en.wikipedia.org/wiki/Prada_Marfa',
+            done: false
+        }	]
 });
