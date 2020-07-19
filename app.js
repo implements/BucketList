@@ -74,6 +74,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Japan',
             url: 'https://maricar.com/',
             done: false
+        },   
+        {
+            title: 'Visit Monument Valley.',
+            country: 'USA',
+            url: 'https://en.wikipedia.org/wiki/Monument_Valley',
+            done: false
         },
         {
             title: 'Visit Prada Marfa.',
