@@ -86,5 +86,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'USA',
             url: 'https://en.wikipedia.org/wiki/Prada_Marfa',
             done: false
-        }	]
+        },
+        {
+            title: 'Climb Mount Kilimanjaro.',
+            country: 'Tanzania',
+            url: 'https://en.wikipedia.org/wiki/Mount_Kilimanjaro',
+            done: false
+        }	
+    ]
 });
