@@ -92,6 +92,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Tanzania',
             url: 'https://en.wikipedia.org/wiki/Mount_Kilimanjaro',
             done: false
-        }	
+        },
+        {
+            title: 'Do the Shikoku Pilgrimage.',
+            country: 'Japan',
+            url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
+            done: false
+        }
     ]
 });
