@@ -20,11 +20,17 @@ app.controller('TravelPlansController', function($scope) {
             country: 'China',
             url: 'https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park',
             done: true
-        },    
+        },
         {
-            title: 'Hike the Fimmvörðuháls Trail.',
-            country: 'Iceland',
-            url: 'https://en.wikipedia.org/wiki/Fimmv%C3%B6r%C3%B0uh%C3%A1ls',
+            title: 'Dive the Great Barrier Reef.',
+            country: 'Australia',
+            url: 'https://en.wikipedia.org/wiki/Great_Barrier_Reef',
+            done: false
+        },
+	{
+            title: 'Pet a Quokka.',
+            country: 'Australia',
+            url: 'https://en.wikipedia.org/wiki/Quokka',
             done: false
         },
         {
@@ -34,21 +40,21 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'Dive the Great Barrier Reef.',
-            country: 'Australia',
-            url: 'https://en.wikipedia.org/wiki/Great_Barrier_Reef',
+            title: 'Hike the Fimmvörðuháls Trail.',
+            country: 'Iceland',
+            url: 'https://en.wikipedia.org/wiki/Fimmv%C3%B6r%C3%B0uh%C3%A1ls',
             done: false
-        },  
-	{
-            title: 'Pet a Quokka.',
-            country: 'Australia',
-            url: 'https://en.wikipedia.org/wiki/Quokka',
-            done: false
-        },  
+        },
         {
-            title: 'Experience La Tomatina.',
-            country: 'Spain',
-            url: 'https://en.wikipedia.org/wiki/La_Tomatina',
+            title: 'Mario Kart through Tokyo.',
+            country: 'Japan',
+            url: 'https://maricar.com/',
+            done: false
+        },
+        {
+            title: 'Walk the Shikoku Pilgrimage.',
+            country: 'Japan',
+            url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
             done: false
         },
         {
@@ -58,23 +64,29 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'Explore the Hang Sơn Đoòng Cave.',
-            country: 'Vietnam',
-            url: 'https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng',
+            title: 'Hike to Everest Base Camp.',
+            country: 'Nepal',
+            url: 'https://en.wikipedia.org/wiki/Everest_Base_Camp',
             done: false
         },
         {
-            title: 'Hike to Everest Base Camp.',
-            country: 'Nepal / Tibet',
-            url: 'https://en.wikipedia.org/wiki/Everest_Base_Camp',
+            title: 'Experience La Tomatina.',
+            country: 'Spain',
+            url: 'https://en.wikipedia.org/wiki/La_Tomatina',
             done: false
-        },   
+        },
         {
-            title: 'Mario Kart through Tokyo.',
-            country: 'Japan',
-            url: 'https://maricar.com/',
+            title: 'Climb Mount Kilimanjaro.',
+            country: 'Tanzania',
+            url: 'https://en.wikipedia.org/wiki/Mount_Kilimanjaro',
             done: false
-        },   
+        },
+        {
+            title: 'Drive the Loneliest Road in America.',
+            country: 'USA',
+            url: 'https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada',
+            done: false
+        },
         {
             title: 'Visit Monument Valley.',
             country: 'USA',
@@ -88,21 +100,9 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'Climb Mount Kilimanjaro.',
-            country: 'Tanzania',
-            url: 'https://en.wikipedia.org/wiki/Mount_Kilimanjaro',
-            done: false
-        },
-        {
-            title: 'Walk the Shikoku Pilgrimage.',
-            country: 'Japan',
-            url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
-            done: false
-        },
-        {
-            title: 'Drive the Loneliest Road in America.',
-            country: 'America',
-            url: 'https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada',
+            title: 'Explore the Hang Sơn Đoòng Cave.',
+            country: 'Vietnam',
+            url: 'https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng',
             done: false
         }
     ]
