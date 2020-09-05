@@ -98,6 +98,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Japan',
             url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
             done: false
+        },
+        {
+            title: 'Drive the Loneliest Road in America.',
+            country: 'America',
+            url: 'https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada',
+            done: false
         }
     ]
 });
