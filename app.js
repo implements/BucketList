@@ -52,7 +52,7 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'The Gibbon Experience.',
+            title: 'Do the Gibbon Experience.',
             country: 'Laos',
             url: 'https://www.gibbonexperience.org/',
             done: false
