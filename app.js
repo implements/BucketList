@@ -4,7 +4,7 @@ app.controller('TravelPlansController', function($scope) {
 
     $scope.locations = [
         {
-            title: 'Hike the Inca Trail to Machu Picchu.',
+            title: 'Hike the Inca Trail.',
             country: 'Peru',
             url: 'https://en.wikipedia.org/wiki/Inca_Trail_to_Machu_Picchu',
             done: true
