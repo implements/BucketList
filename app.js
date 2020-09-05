@@ -46,12 +46,6 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'Mario Kart through Tokyo.',
-            country: 'Japan',
-            url: 'https://maricar.com/',
-            done: false
-        },
-        {
             title: 'Walk the Shikoku Pilgrimage.',
             country: 'Japan',
             url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
