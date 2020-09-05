@@ -94,7 +94,7 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'Do the Shikoku Pilgrimage.',
+            title: 'Walk the Shikoku Pilgrimage.',
             country: 'Japan',
             url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
             done: false
