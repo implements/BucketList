@@ -16,7 +16,7 @@ app.controller('TravelPlansController', function($scope) {
             done: true
         },
         {
-            title: 'Visit the Floating Mountains in Zhāngjiājiè.',
+            title: 'Visit the Floating Mountains.',
             country: 'China',
             url: 'https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park',
             done: true
