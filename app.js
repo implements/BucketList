@@ -32,6 +32,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Australia',
             url: 'https://en.wikipedia.org/wiki/Quokka',
             done: false
+        }, 
+	{
+            title: 'Do the Bermondsey Beer Mile.',
+            country: 'England',
+            url: 'https://secretldn.com/bermondsey-beer-mile-guide',
+            done: false
         },
         {
             title: 'Experience Oktoberfest.',
@@ -62,11 +68,17 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Nepal',
             url: 'https://en.wikipedia.org/wiki/Everest_Base_Camp',
             done: false
-        },
+        },  
         {
             title: 'Experience La Tomatina.',
             country: 'Spain',
             url: 'https://en.wikipedia.org/wiki/La_Tomatina',
+            done: false
+        },
+	{
+            title: 'Walk the Camino de Santiago.',
+            country: 'Spain',
+            url: 'https://en.wikipedia.org/wiki/Camino_de_Santiago',
             done: false
         },
         {
