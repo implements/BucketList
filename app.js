@@ -70,6 +70,12 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },  
         {
+            title: 'See the Waves in Nazaré.',
+            country: 'Portugal',
+            url: 'https://en.wikipedia.org/wiki/Nazar%C3%A9,_Portugal',
+            done: false
+        },
+        {
             title: 'Experience La Tomatina.',
             country: 'Spain',
             url: 'https://en.wikipedia.org/wiki/La_Tomatina',
