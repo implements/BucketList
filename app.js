@@ -94,9 +94,15 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'Drive the Loneliest Road in America.',
+            title: 'Drive the Loneliest Road.',
             country: 'USA',
             url: 'https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada',
+            done: false
+        },
+        {
+            title: 'Hike With a Shelter Dog.',
+            country: 'USA',
+            url: 'https://kauaihumane.org/service/field-trips/',
             done: false
         },
         {
