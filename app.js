@@ -94,6 +94,12 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
+            title: 'Visit the Zone.',
+            country: 'Ukraine',
+            url: 'https://en.wikipedia.org/wiki/Chernobyl_Exclusion_Zone',
+            done: false
+        },
+        {
             title: 'Drive the Loneliest Road.',
             country: 'USA',
             url: 'https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada',
@@ -103,6 +109,12 @@ app.controller('TravelPlansController', function($scope) {
             title: 'Hike With a Shelter Dog.',
             country: 'USA',
             url: 'https://kauaihumane.org/service/field-trips/',
+            done: false
+        },
+        {
+            title: 'Visit Cortlandt Alley.',
+            country: 'USA',
+            url: 'https://www.hollywoodreporter.com/news/general-news/why-is-gritty-nyc-alley-featured-tv-shows-movies-1240049/',
             done: false
         },
         {
