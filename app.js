@@ -4,12 +4,6 @@ app.controller('TravelPlansController', function($scope) {
 
     $scope.locations = [
         {
-            title: 'Hike the Inca Trail.',
-            country: 'Peru',
-            url: 'https://en.wikipedia.org/wiki/Inca_Trail_to_Machu_Picchu',
-            done: true
-        },
-        {
             title: 'Walk the Great Wall.',
             country: 'China',
             url: 'https://en.wikipedia.org/wiki/Great_Wall_of_China',
@@ -19,6 +13,12 @@ app.controller('TravelPlansController', function($scope) {
             title: 'Visit the Floating Mountains.',
             country: 'China',
             url: 'https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park',
+            done: true
+        },	    
+        {
+            title: 'Hike the Inca Trail.',
+            country: 'Peru',
+            url: 'https://en.wikipedia.org/wiki/Inca_Trail_to_Machu_Picchu',
             done: true
         },
         {
@@ -55,6 +55,12 @@ app.controller('TravelPlansController', function($scope) {
             title: 'Walk the Shikoku Pilgrimage.',
             country: 'Japan',
             url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
+            done: false
+        },  
+        {
+            title: 'Bike the Thakhek Loop.',
+            country: 'Laos',
+            url: 'https://solotravellerontour.com/motorbike-thakhek-loop/',
             done: false
         },
         {
