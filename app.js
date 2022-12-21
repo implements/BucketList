@@ -44,19 +44,6 @@ app.controller('BucketListController', function($scope) {
             done: false
         },
         {
-            title: 'Lauterbrunnen Valley',
-            country: 'Switzerland',
-            url: 'https://interfacelift.com/wallpaper/details/4088/the_birthplace_of_rivendell.html',
-            done: false
-        },
-        {
-            title: 'Gornergrad',
-            place: 'Zermatt',
-            country: 'Switzerland',
-            url: 'https://interfacelift.com/wallpaper/details/4081/lagoon_nebula.html',
-            done: false
-        },
-        {
             title: 'Vesper Peak',
             place: 'Washington',
             country: 'United States',
@@ -82,6 +69,19 @@ app.controller('BucketListController', function($scope) {
             place: 'Arizona',
             country: 'United States',
             url: 'https://interfacelift.com/wallpaper/details/448/antelope_canyon.html',
+            done: true
+        },
+        {
+            title: 'Lauterbrunnen Valley',
+            country: 'Switzerland',
+            url: 'https://interfacelift.com/wallpaper/details/4088/the_birthplace_of_rivendell.html',
+            done: true
+        },
+        {
+            title: 'Gornergrad',
+            place: 'Zermatt',
+            country: 'Switzerland',
+            url: 'https://interfacelift.com/wallpaper/details/4081/lagoon_nebula.html',
             done: true
         }
 	]
