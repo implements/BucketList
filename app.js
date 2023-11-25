@@ -22,6 +22,18 @@ app.controller('TravelPlansController', function($scope) {
             done: true
         },  
         {
+            title: 'Do the Gibbon Experience.',
+            country: 'Laos',
+            url: 'https://www.gibbonexperience.org/',
+            done: true
+        },
+        {
+            title: 'Bike the Thakhek Loop.',
+            country: 'Laos',
+            url: 'https://solotravellerontour.com/motorbike-thakhek-loop/',
+            done: true
+        },
+        {
             title: 'Visit Prada Marfa.',
             country: 'USA',
             url: 'https://en.wikipedia.org/wiki/Prada_Marfa',
@@ -69,18 +81,6 @@ app.controller('TravelPlansController', function($scope) {
             url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
             done: false
         },  
-        {
-            title: 'Bike the Thakhek Loop.',
-            country: 'Laos',
-            url: 'https://solotravellerontour.com/motorbike-thakhek-loop/',
-            done: false
-        },
-        {
-            title: 'Do the Gibbon Experience.',
-            country: 'Laos',
-            url: 'https://www.gibbonexperience.org/',
-            done: false
-        },
         {
             title: 'Hike to Everest Base Camp.',
             country: 'Nepal',
@@ -139,6 +139,12 @@ app.controller('TravelPlansController', function($scope) {
             title: 'Explore the Hang Sơn Đoòng Cave.',
             country: 'Vietnam',
             url: 'https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng',
+            done: false
+        },
+        {
+            title: 'Bike the Ha Giang Loop.',
+            country: 'Vietnam',
+            url: 'https://solotravellerontour.com/motorbike-ha-giang-loop-2',
             done: false
         }
     ]
