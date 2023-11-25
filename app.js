@@ -20,6 +20,18 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Peru',
             url: 'https://en.wikipedia.org/wiki/Inca_Trail_to_Machu_Picchu',
             done: true
+        },  
+        {
+            title: 'Visit Prada Marfa.',
+            country: 'USA',
+            url: 'https://en.wikipedia.org/wiki/Prada_Marfa',
+            done: true
+        },  
+        {
+            title: 'Visit Monument Valley.',
+            country: 'USA',
+            url: 'https://en.wikipedia.org/wiki/Monument_Valley',
+            done: true
         },
         {
             title: 'Dive the Great Barrier Reef.',
@@ -121,18 +133,6 @@ app.controller('TravelPlansController', function($scope) {
             title: 'Visit Cortlandt Alley.',
             country: 'USA',
             url: 'https://www.hollywoodreporter.com/news/general-news/why-is-gritty-nyc-alley-featured-tv-shows-movies-1240049/',
-            done: false
-        },
-        {
-            title: 'Visit Monument Valley.',
-            country: 'USA',
-            url: 'https://en.wikipedia.org/wiki/Monument_Valley',
-            done: false
-        },
-        {
-            title: 'Visit Prada Marfa.',
-            country: 'USA',
-            url: 'https://en.wikipedia.org/wiki/Prada_Marfa',
             done: false
         },
         {
