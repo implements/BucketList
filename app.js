@@ -142,7 +142,7 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'Bike the Ha Giang Loop.',
+            title: 'Bike the Hà Giang Loop.',
             country: 'Vietnam',
             url: 'https://solotravellerontour.com/motorbike-ha-giang-loop-2',
             done: false
