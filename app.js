@@ -135,17 +135,17 @@ app.controller('TravelPlansController', function($scope) {
             url: 'https://www.hollywoodreporter.com/news/general-news/why-is-gritty-nyc-alley-featured-tv-shows-movies-1240049/',
             done: false
         },
+	{
+            title: 'Bike the Hà Giang Loop.',
+            country: 'Vietnam',
+            url: 'https://solotravellerontour.com/motorbike-ha-giang-loop-2',
+            done: false
+        }
         {
             title: 'Explore the Hang Sơn Đoòng Cave.',
             country: 'Vietnam',
             url: 'https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng',
             done: false
         },
-        {
-            title: 'Bike the Hà Giang Loop.',
-            country: 'Vietnam',
-            url: 'https://solotravellerontour.com/motorbike-ha-giang-loop-2',
-            done: false
-        }
     ]
 });
