@@ -122,7 +122,7 @@ app.controller('TravelPlansController', function($scope) {
             country: 'USA',
             url: 'https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada',
             done: false
-        },
+        },    
         {
             title: 'Hike With a Shelter Dog.',
             country: 'USA',
@@ -133,6 +133,12 @@ app.controller('TravelPlansController', function($scope) {
             title: 'Visit Cortlandt Alley.',
             country: 'USA',
             url: 'https://www.hollywoodreporter.com/news/general-news/why-is-gritty-nyc-alley-featured-tv-shows-movies-1240049/',
+            done: false
+        },
+	{
+            title: 'Watch Old Faithful Erupt.',
+            country: 'USA',
+            url: 'https://en.wikipedia.org/wiki/Old_Faithful',
             done: false
         },
 	{
