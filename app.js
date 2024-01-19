@@ -106,9 +106,9 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },    
         {
-            title: 'Visit the Coldest City on Earth.',
+            title: 'Visit the Coldest Inhabited Place on Earth.',
             country: 'Russia',
-            url: 'https://en.wikipedia.org/wiki/Yakutsk',
+            url: 'https://en.wikipedia.org/wiki/Oymyakon',
             done: false
         },
         {
