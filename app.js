@@ -104,6 +104,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Portugal',
             url: 'https://en.wikipedia.org/wiki/Nazar%C3%A9,_Portugal',
             done: false
+        },    
+        {
+            title: 'Visit the Coldest City on Earth.',
+            country: 'Russia',
+            url: 'https://en.wikipedia.org/wiki/Yakutsk',
+            done: false
         },
         {
             title: 'Experience La Tomatina.',
