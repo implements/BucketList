@@ -110,6 +110,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Russia',
             url: 'https://en.wikipedia.org/wiki/Oymyakon',
             done: false
+        },   
+        {
+            title: 'Dive With Great White Sharks.',
+            country: 'South Africa',
+            url: 'https://en.wikipedia.org/wiki/Seal_Island,_South_Africa',
+            done: false
         },
         {
             title: 'Experience La Tomatina.',
@@ -122,7 +128,7 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Spain',
             url: 'https://en.wikipedia.org/wiki/Camino_de_Santiago',
             done: false
-        },    
+        },
 	{
             title: 'Walk the Mürren to Gimmelwald Via Ferrata.',
             country: 'Switzerland',
