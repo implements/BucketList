@@ -92,6 +92,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Nepal',
             url: 'https://en.wikipedia.org/wiki/Everest_Base_Camp',
             done: false
+        },    
+        {
+            title: 'See the Aurora Borealis.',
+            country: 'Norway',
+            url: 'https://en.wikipedia.org/wiki/Aurora',
+            done: false
         },  
         {
             title: 'See the Waves in Nazaré.',
