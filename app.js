@@ -116,28 +116,28 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Ukraine',
             url: 'https://en.wikipedia.org/wiki/Chernobyl_Exclusion_Zone',
             done: false
-        },
-        {
-            title: 'Drive the Loneliest Road.',
-            country: 'USA',
-            url: 'https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada',
-            done: false
-        },    
+        }, 
         {
             title: 'Hike With a Shelter Dog.',
-            country: 'USA',
+            country: 'Hawaii, United States',
             url: 'https://kauaihumane.org/service/field-trips/',
             done: false
         },
         {
+            title: 'Drive the Loneliest Road.',
+            country: 'Nevada, United States',
+            url: 'https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada',
+            done: false
+        },    
+        {
             title: 'Visit Cortlandt Alley.',
-            country: 'USA',
+            country: 'New York, United States',
             url: 'https://www.hollywoodreporter.com/news/general-news/why-is-gritty-nyc-alley-featured-tv-shows-movies-1240049/',
             done: false
         },
 	{
             title: 'Watch Old Faithful Erupt.',
-            country: 'USA',
+            country: 'Wyoming, United States',
             url: 'https://en.wikipedia.org/wiki/Old_Faithful',
             done: false
         },
