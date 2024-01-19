@@ -140,7 +140,7 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Vietnam',
             url: 'https://solotravellerontour.com/motorbike-ha-giang-loop-2',
             done: false
-        }
+        },
         {
             title: 'Explore the Hang Sơn Đoòng Cave.',
             country: 'Vietnam',
