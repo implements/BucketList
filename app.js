@@ -74,13 +74,19 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Iceland',
             url: 'https://en.wikipedia.org/wiki/Fimmv%C3%B6r%C3%B0uh%C3%A1ls',
             done: false
+        },    
+        {
+            title: 'Climb Mount Fuji.',
+            country: 'Japan',
+            url: 'https://en.wikipedia.org/wiki/Mount_Fuji',
+            done: false
         },
         {
             title: 'Walk the Shikoku Pilgrimage.',
             country: 'Japan',
             url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
             done: false
-        },  
+        },
         {
             title: 'Hike to Everest Base Camp.',
             country: 'Nepal',
