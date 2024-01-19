@@ -146,6 +146,6 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Vietnam',
             url: 'https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng',
             done: false
-        },
+        }
     ]
 });
