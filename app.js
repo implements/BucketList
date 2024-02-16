@@ -56,7 +56,13 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Australia',
             url: 'https://en.wikipedia.org/wiki/Quokka',
             done: false
-        }, 
+        },    
+	{
+            title: 'Attend the Atherstone Ball Game.',
+            country: 'England',
+            url: 'https://en.wikipedia.org/wiki/Atherstone_Ball_Game',
+            done: false
+        },
 	{
             title: 'Do the Bermondsey Beer Mile.',
             country: 'England',
