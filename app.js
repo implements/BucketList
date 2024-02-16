@@ -70,7 +70,7 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },    
 	{
-            title: 'Watch the Cooper's Hill Cheese-Rolling & Wake.',
+            title: 'Watch the Cooper's Hill Cheese-Rolling \& Wake.',
             country: 'England',
             url: 'https://en.wikipedia.org/wiki/Cooper%27s_Hill_Cheese-Rolling_and_Wake',
             done: false
