@@ -52,6 +52,12 @@ app.controller('TravelPlansController', function($scope) {
             done: true
         },
 	{
+            title: 'Do the Bermondsey Beer Mile.',
+            country: 'England',
+            url: 'https://secretldn.com/bermondsey-beer-mile-guide',
+            done: true
+        },
+	{
             title: 'Visit Every Continent.',
             country: 'Antartica',
             url: 'https://en.wikipedia.org/wiki/Antarctica',
@@ -76,12 +82,6 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
 	{
-            title: 'Do the Bermondsey Beer Mile.',
-            country: 'England',
-            url: 'https://secretldn.com/bermondsey-beer-mile-guide',
-            done: false
-        },  
-	{
             title: 'Watch the Cooper\'s Hill Cheese-Rolling & Wake.',
             country: 'England',
             url: 'https://en.wikipedia.org/wiki/Cooper%27s_Hill_Cheese-Rolling_and_Wake',
@@ -98,7 +98,13 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Iceland',
             url: 'https://en.wikipedia.org/wiki/Fimmv%C3%B6r%C3%B0uh%C3%A1ls',
             done: false
-        },    
+        },  
+        {
+            title: 'See the Aurora Borealis.',
+            country: 'Iceland / Norway',
+            url: 'https://en.wikipedia.org/wiki/Aurora',
+            done: false
+        },
         {
             title: 'Climb Mount Fuji.',
             country: 'Japan',
@@ -123,12 +129,6 @@ app.controller('TravelPlansController', function($scope) {
             url: 'https://en.wikipedia.org/wiki/Everest_Base_Camp',
             done: false
         },    
-        {
-            title: 'See the Aurora Borealis.',
-            country: 'Norway',
-            url: 'https://en.wikipedia.org/wiki/Aurora',
-            done: false
-        },  
         {
             title: 'See the Waves in Nazaré.',
             country: 'Portugal',
