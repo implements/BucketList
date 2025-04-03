@@ -51,6 +51,12 @@ app.controller('TravelPlansController', function($scope) {
             url: 'https://solotravellerontour.com/motorbike-ha-giang-loop-2',
             done: true
         },
+	{
+            title: 'Visit Every Continent.',
+            country: 'Antartica',
+            url: 'https://en.wikipedia.org/wiki/Antarctica',
+            done: false
+        },
         {
             title: 'Dive the Great Barrier Reef.',
             country: 'Australia',
