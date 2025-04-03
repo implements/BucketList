@@ -95,7 +95,7 @@ app.controller('TravelPlansController', function($scope) {
         },    
         {
             title: 'Watch a Volcano Erupt.',
-            country: 'Guatamala / Italy',
+            country: 'Guatamala / Iceland / Italy / United States',
             url: 'https://en.wikipedia.org/wiki/Volc%C3%A1n_de_Fuego',
             done: false
         },
