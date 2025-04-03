@@ -92,6 +92,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Germany',
             url: 'https://en.wikipedia.org/wiki/Oktoberfest',
             done: false
+        },    
+        {
+            title: 'Watch a Volcano Erupt.',
+            country: 'Guatamala / Italy',
+            url: 'https://en.wikipedia.org/wiki/Volc%C3%A1n_de_Fuego',
+            done: false
         },
         {
             title: 'Hike the Fimmvörðuháls Trail.',
@@ -128,7 +134,7 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Nepal',
             url: 'https://en.wikipedia.org/wiki/Everest_Base_Camp',
             done: false
-        },    
+        },
         {
             title: 'See the Waves in Nazaré.',
             country: 'Portugal',
