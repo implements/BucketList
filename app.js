@@ -44,6 +44,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'United States',
             url: 'https://en.wikipedia.org/wiki/Monument_Valley',
             done: true
+        },    
+	{
+            title: 'Bike the Hà Giang Loop.',
+            country: 'Vietnam',
+            url: 'https://solotravellerontour.com/motorbike-ha-giang-loop-2',
+            done: true
         },
         {
             title: 'Dive the Great Barrier Reef.',
@@ -181,12 +187,6 @@ app.controller('TravelPlansController', function($scope) {
             title: 'Watch Old Faithful Erupt.',
             country: 'United States',
             url: 'https://en.wikipedia.org/wiki/Old_Faithful',
-            done: false
-        },
-	{
-            title: 'Bike the Hà Giang Loop.',
-            country: 'Vietnam',
-            url: 'https://solotravellerontour.com/motorbike-ha-giang-loop-2',
             done: false
         },
         {
