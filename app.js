@@ -100,6 +100,12 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
+            title: 'Eat Kobe Beef.',
+            country: 'Japan',
+            url: 'https://en.wikipedia.org/wiki/Kobe_beef',
+            done: false
+        },
+        {
             title: 'Walk the Shikoku Pilgrimage.',
             country: 'Japan',
             url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
