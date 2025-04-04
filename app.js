@@ -82,7 +82,7 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'Experience Oktoberfest.',
+            title: 'Attend Oktoberfest.',
             country: 'Germany',
             url: 'https://en.wikipedia.org/wiki/Oktoberfest',
             done: false
