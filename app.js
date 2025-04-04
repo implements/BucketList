@@ -111,6 +111,12 @@ app.controller('TravelPlansController', function($scope) {
             url: 'https://en.wikipedia.org/wiki/Mount_Fuji',
             done: false
         },
+	{
+            title: 'Watch a Sumo Wrestling Match',
+            country: 'Japan',
+            url: 'https://en.wikipedia.org/wiki/Sumo',
+            done: false
+        },
         {
             title: 'Eat Kobe Beef.',
             country: 'Japan',
