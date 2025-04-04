@@ -56,7 +56,7 @@ app.controller('TravelPlansController', function($scope) {
             country: 'England',
             url: 'https://secretldn.com/bermondsey-beer-mile-guide',
             done: true
-        },
+        },    
 	{
             title: 'Visit Every Continent.',
             country: 'Antartica',
@@ -75,6 +75,12 @@ app.controller('TravelPlansController', function($scope) {
             url: 'https://en.wikipedia.org/wiki/Quokka',
             done: false
         },    
+	{
+            title: 'See the New 7 Wonders of the World.',
+            country: 'Brazil / China / Egypt / India / Italy / Jordan / Mexico / Peru',
+            url: 'https://en.wikipedia.org/wiki/New_7_Wonders_of_the_World',
+            done: false
+        },
 	{
             title: 'Attend the Atherstone Ball Game.',
             country: 'England',
