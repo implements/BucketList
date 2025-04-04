@@ -32,13 +32,7 @@ app.controller('TravelPlansController', function($scope) {
             country: 'United States',
             url: 'https://en.wikipedia.org/wiki/Prada_Marfa',
             done: true
-        },  
-        {
-            title: 'Visit Monument Valley.',
-            country: 'United States',
-            url: 'https://en.wikipedia.org/wiki/Monument_Valley',
-            done: true
-        },    
+        }, 
 	{
             title: 'Bike the Hà Giang Loop.',
             country: 'Vietnam',
