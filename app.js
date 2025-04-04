@@ -28,12 +28,6 @@ app.controller('TravelPlansController', function($scope) {
             done: true
         },
         {
-            title: 'Bike the Thakhek Loop.',
-            country: 'Laos',
-            url: 'https://solotravellerontour.com/motorbike-thakhek-loop/',
-            done: true
-        },
-        {
             title: 'Visit Prada Marfa.',
             country: 'United States',
             url: 'https://en.wikipedia.org/wiki/Prada_Marfa',
