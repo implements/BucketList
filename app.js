@@ -100,7 +100,7 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },  
         {
-            title: 'See the Aurora Borealis.',
+            title: 'Experience the Aurora Borealis.',
             country: 'Iceland / Norway',
             url: 'https://en.wikipedia.org/wiki/Aurora',
             done: false
