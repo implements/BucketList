@@ -94,11 +94,17 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
+            title: 'Dive in a Continental Rift.',
+            country: 'Iceland',
+            url: 'https://en.wikipedia.org/wiki/Silfra',
+            done: false
+        },
+        {
             title: 'Hike the Fimmvörðuháls Trail.',
             country: 'Iceland',
             url: 'https://en.wikipedia.org/wiki/Fimmv%C3%B6r%C3%B0uh%C3%A1ls',
             done: false
-        },  
+        },
         {
             title: 'Experience the Aurora Borealis.',
             country: 'Iceland / Norway',
