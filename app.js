@@ -142,7 +142,7 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'See the Waves in Nazaré.',
+            title: 'See the World\'s Largest Waves.',
             country: 'Portugal',
             url: 'https://en.wikipedia.org/wiki/Nazar%C3%A9,_Portugal',
             done: false
