@@ -76,7 +76,7 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },    
 	{
-            title: 'See the New 7 Wonders of the World.',
+            title: 'See the Wonders of the World.',
             country: 'Brazil / China / Egypt / India / Italy / Jordan / Mexico / Peru',
             url: 'https://en.wikipedia.org/wiki/New_7_Wonders_of_the_World',
             done: false
