@@ -165,6 +165,12 @@ app.controller('TravelPlansController', function($scope) {
             url: 'https://en.wikipedia.org/wiki/Seal_Island,_South_Africa',
             done: false
         },
+	{
+            title: 'Attend El Clásico.',
+            country: 'Spain',
+            url: 'https://en.wikipedia.org/wiki/El_Cl%C3%A1sico',
+            done: false
+        },
         {
             title: 'Experience La Tomatina.',
             country: 'Spain',
