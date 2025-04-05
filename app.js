@@ -218,6 +218,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'United States',
             url: 'https://www.hollywoodreporter.com/news/general-news/why-is-gritty-nyc-alley-featured-tv-shows-movies-1240049/',
             done: false
+        },    
+        {
+            title: 'Visit Silent Hill.',
+            country: 'United States',
+            url: 'https://en.wikipedia.org/wiki/Centralia,_Pennsylvania',
+            done: false
         },
 	{
             title: 'Watch Old Faithful Erupt.',
