@@ -134,6 +134,12 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Japan',
             url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
             done: false
+        },    
+	{
+            title: 'Attend a World Cup.',
+            country: 'Morocco / Portugal / Spain',
+            url: 'https://en.wikipedia.org/wiki/2030_FIFA_World_Cup',
+            done: false
         },
         {
             title: 'Hike to Everest Base Camp.',
