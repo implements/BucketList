@@ -216,7 +216,7 @@ app.controller('TravelPlansController', function($scope) {
         {
             title: 'Visit Cortlandt Alley.',
             country: 'United States',
-            url: 'https://www.hollywoodreporter.com/news/general-news/why-is-gritty-nyc-alley-featured-tv-shows-movies-1240049/',
+            url: 'https://en.wikipedia.org/wiki/Cortlandt_Alley',
             done: false
         },    
         {
