@@ -14,7 +14,7 @@ app.controller('TravelPlansController', function($scope) {
             country: 'China',
             url: 'https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park',
             done: true
-        },	    
+        },
         {
             title: 'Hike the Inca Trail.',
             country: 'Peru',
@@ -62,11 +62,23 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Australia',
             url: 'https://en.wikipedia.org/wiki/Quokka',
             done: false
-        },    
+        },  
+	{
+            title: 'Watch the Fighting Cholitas.',
+            country: 'Bolivia',
+            url: 'https://en.wikipedia.org/wiki/Fighting_Cholitas',
+            done: false
+        },
 	{
             title: 'See the Wonders of the World.',
             country: 'Brazil / China / Egypt / India / Italy / Jordan / Mexico / Peru',
             url: 'https://en.wikipedia.org/wiki/New_7_Wonders_of_the_World',
+            done: false
+        },
+        {
+            title: 'Dive the Galápagos Islands.',
+            country: 'Australia',
+            url: 'https://en.wikipedia.org/wiki/Great_Barrier_Reef',
             done: false
         },
 	{
