@@ -71,7 +71,7 @@ app.controller('TravelPlansController', function($scope) {
         },
 	{
             title: 'See the Wonders of the World.',
-            country: 'Brazil / India / Mexico',
+            country: 'Brazil, India & Mexico',
             url: 'https://en.wikipedia.org/wiki/New_7_Wonders_of_the_World',
             done: false
         },
@@ -101,7 +101,7 @@ app.controller('TravelPlansController', function($scope) {
         },    
         {
             title: 'Watch a Volcano Erupt.',
-            country: 'Guatamala / Iceland / Italy / United States',
+            country: 'Guatamala, Iceland, Italy & United States',
             url: 'https://en.wikipedia.org/wiki/Volc%C3%A1n_de_Fuego',
             done: false
         },
