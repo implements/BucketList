@@ -71,7 +71,7 @@ app.controller('TravelPlansController', function($scope) {
         },
 	{
             title: 'See the Wonders of the World.',
-            country: 'Brazil / China / Egypt / India / Italy / Jordan / Mexico / Peru',
+            country: 'Brazil / India / Mexico',
             url: 'https://en.wikipedia.org/wiki/New_7_Wonders_of_the_World',
             done: false
         },
