@@ -184,7 +184,7 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'Experience La Tomatina.',
+            title: 'Attend La Tomatina.',
             country: 'Spain',
             url: 'https://en.wikipedia.org/wiki/La_Tomatina',
             done: false
@@ -212,7 +212,13 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Ukraine',
             url: 'https://en.wikipedia.org/wiki/Chernobyl_Exclusion_Zone',
             done: false
-        },        
+        },   
+	{
+            title: 'Attend Mardi Gras.',
+            country: 'United States',
+            url: 'https://en.wikipedia.org/wiki/Mardi_Gras_in_New_Orleans',
+            done: false
+        },
 	{
             title: 'Drive the Loneliest Road.',
             country: 'United States',
