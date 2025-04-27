@@ -78,7 +78,7 @@ app.controller('TravelPlansController', function($scope) {
         {
             title: 'Dive the Galápagos Islands.',
             country: 'Australia',
-            url: 'https://en.wikipedia.org/wiki/Great_Barrier_Reef',
+            url: 'https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands',
             done: false
         },
 	{
