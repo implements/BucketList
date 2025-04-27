@@ -119,7 +119,7 @@ app.controller('TravelPlansController', function($scope) {
         },
         {
             title: 'Experience the Aurora Borealis.',
-            country: 'Iceland / Norway',
+            country: 'Iceland & Norway',
             url: 'https://en.wikipedia.org/wiki/Aurora',
             done: false
         },
@@ -149,7 +149,7 @@ app.controller('TravelPlansController', function($scope) {
         },    
 	{
             title: 'Attend a World Cup.',
-            country: 'Morocco / Portugal / Spain',
+            country: 'Morocco, Portugal & Spain',
             url: 'https://en.wikipedia.org/wiki/2030_FIFA_World_Cup',
             done: false
         },
