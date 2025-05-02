@@ -236,7 +236,13 @@ app.controller('TravelPlansController', function($scope) {
             country: 'United States',
             url: 'https://en.wikipedia.org/wiki/Cortlandt_Alley',
             done: false
-        },    
+        },  
+        {
+            title: 'Visit Every State.',
+            country: 'United States',
+            url: 'https://en.wikipedia.org/wiki/U.S._state',
+            done: false
+        },
         {
             title: 'Visit Silent Hill.',
             country: 'United States',
