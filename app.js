@@ -213,36 +213,6 @@ app.controller('TravelPlansController', function($scope) {
             url: 'https://en.wikipedia.org/wiki/Chernobyl_Exclusion_Zone',
             done: false
         },   
-		{
-            title: 'Attend Mardi Gras.',
-            country: 'United States',
-            url: 'https://en.wikipedia.org/wiki/Mardi_Gras_in_New_Orleans',
-            done: false
-        },
-		{
-            title: 'Drive the Extraterrestrial Highway.',
-            country: 'United States',
-            url: 'https://en.wikipedia.org/wiki/Nevada_State_Route_375',
-            done: false
-        },  
-		{
-            title: 'Drive the Loneliest Road.',
-            country: 'United States',
-            url: 'https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada',
-            done: false
-        },  
-        {
-            title: 'Hike With a Shelter Dog.',
-            country: 'United States',
-            url: 'https://kauaihumane.org/service/field-trips/',
-            done: false
-        },
-        {
-            title: 'Visit Cortlandt Alley.',
-            country: 'United States',
-            url: 'https://en.wikipedia.org/wiki/Cortlandt_Alley',
-            done: false
-        },  
         {
             title: 'Visit Every State.',
             country: 'United States',
@@ -250,14 +220,44 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
+            title: 'Hike With a Shelter Dog.',
+            country: 'United States (Hawaii)',
+            url: 'https://kauaihumane.org/service/field-trips/',
+            done: false
+        },
+		{
+            title: 'Attend Mardi Gras.',
+            country: 'United States (Louisiana)',
+            url: 'https://en.wikipedia.org/wiki/Mardi_Gras_in_New_Orleans',
+            done: false
+        },
+		{
+            title: 'Drive the Extraterrestrial Highway.',
+            country: 'United States (Nevada)',
+            url: 'https://en.wikipedia.org/wiki/Nevada_State_Route_375',
+            done: false
+        },  
+		{
+            title: 'Drive the Loneliest Road.',
+            country: 'United States (Nevada)',
+            url: 'https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada',
+            done: false
+        },  
+        {
+            title: 'Visit Cortlandt Alley.',
+            country: 'United States (New York)',
+            url: 'https://en.wikipedia.org/wiki/Cortlandt_Alley',
+            done: false
+        },  
+        {
             title: 'Visit Silent Hill.',
-            country: 'United States',
+            country: 'United States (Pennsylvania)',
             url: 'https://en.wikipedia.org/wiki/Centralia,_Pennsylvania',
             done: false
         },
 	{
             title: 'Watch Old Faithful Erupt.',
-            country: 'United States',
+            country: 'United States (Wyoming)',
             url: 'https://en.wikipedia.org/wiki/Old_Faithful',
             done: false
         },
