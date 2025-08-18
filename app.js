@@ -213,13 +213,19 @@ app.controller('TravelPlansController', function($scope) {
             url: 'https://en.wikipedia.org/wiki/Chernobyl_Exclusion_Zone',
             done: false
         },   
-	{
+		{
             title: 'Attend Mardi Gras.',
             country: 'United States',
             url: 'https://en.wikipedia.org/wiki/Mardi_Gras_in_New_Orleans',
             done: false
         },
-	{
+		{
+            title: 'Drive the Extraterrestrial Highway.',
+            country: 'United States',
+            url: 'https://en.wikipedia.org/wiki/Nevada_State_Route_375',
+            done: false
+        },  
+		{
             title: 'Drive the Loneliest Road.',
             country: 'United States',
             url: 'https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada',
