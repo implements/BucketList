@@ -29,7 +29,7 @@ app.controller('TravelPlansController', function($scope) {
         },
         {
             title: 'Visit Prada Marfa.',
-            country: 'United States',
+            country: 'United States (Texas)',
             url: 'https://en.wikipedia.org/wiki/Prada_Marfa',
             done: true
         }, 
