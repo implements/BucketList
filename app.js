@@ -220,6 +220,12 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
+            title: 'Visit Roscoe\'s House of Chicken \'N Waffles .',
+            country: 'United States (California)',
+            url: 'https://en.wikipedia.org/wiki/Roscoe%27s_House_of_Chicken_%27N_Waffles',
+            done: false
+        },
+        {
             title: 'Hike With a Shelter Dog.',
             country: 'United States (Hawaii)',
             url: 'https://kauaihumane.org/service/field-trips/',
