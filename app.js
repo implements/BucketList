@@ -220,7 +220,7 @@ app.controller('TravelPlansController', function($scope) {
             done: false
         },
         {
-            title: 'Eat at Roscoe\'s House of Chicken \'N Waffles .',
+            title: 'Eat at Roscoe\'s House of Chicken \'N Waffles.',
             country: 'United States (California)',
             url: 'https://en.wikipedia.org/wiki/Roscoe%27s_House_of_Chicken_%27N_Waffles',
             done: false
