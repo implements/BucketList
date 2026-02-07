@@ -152,10 +152,16 @@ app.controller('TravelPlansController', function($scope) {
             country: 'Japan',
             url: 'https://en.wikipedia.org/wiki/Shikoku_Pilgrimage',
             done: false
-        },    
-	{
+        },
+		{
             title: 'Attend a World Cup.',
             country: 'Morocco, Portugal & Spain',
+            url: 'https://en.wikipedia.org/wiki/2030_FIFA_World_Cup',
+            done: false
+        },
+		{
+            title: 'Sandboard a Dune.',
+            country: 'Morocco & Chile',
             url: 'https://en.wikipedia.org/wiki/2030_FIFA_World_Cup',
             done: false
         },
@@ -195,13 +201,13 @@ app.controller('TravelPlansController', function($scope) {
             url: 'https://en.wikipedia.org/wiki/La_Tomatina',
             done: false
         },
-	{
+		{
             title: 'Walk the Camino de Santiago.',
             country: 'Spain',
             url: 'https://en.wikipedia.org/wiki/Camino_de_Santiago',
             done: false
         },
-	{
+		{
             title: 'Walk the Mürren to Gimmelwald Via Ferrata.',
             country: 'Switzerland',
             url: 'https://www.earthtrekkers.com/murren-via-ferrata-guide',
