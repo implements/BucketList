@@ -81,13 +81,19 @@ app.controller('TravelPlansController', function($scope) {
             url: 'https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands',
             done: false
         },
-	{
+		{
             title: 'Attend the Atherstone Ball Game.',
             country: 'England',
             url: 'https://en.wikipedia.org/wiki/Atherstone_Ball_Game',
             done: false
         },
-	{
+		{
+            title: 'Experience a Dockers Derby.',
+            country: 'England',
+            url: 'https://en.wikipedia.org/wiki/Millwall_F.C.%E2%80%93West_Ham_United_F.C._rivalry',
+            done: false
+        },
+		{
             title: 'Watch the Cooper\'s Hill Cheese-Rolling & Wake.',
             country: 'England',
             url: 'https://en.wikipedia.org/wiki/Cooper%27s_Hill_Cheese-Rolling_and_Wake',
