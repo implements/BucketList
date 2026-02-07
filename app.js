@@ -162,7 +162,7 @@ app.controller('TravelPlansController', function($scope) {
 		{
             title: 'Sandboard a Dune.',
             country: 'Morocco & Chile',
-            url: 'https://en.wikipedia.org/wiki/2030_FIFA_World_Cup',
+            url: 'https://en.wikipedia.org/wiki/Sandboarding',
             done: false
         },
         {
